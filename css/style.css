@@ -112,12 +112,21 @@ h4.inprice {
 }
 
 div.card-body {
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
 
 div.card-body ul {
     list-style: none;
     padding: 0;
+}
+
+.card-body{
+    padding: 2.5rem;
+}
+
+.card-body li{
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
